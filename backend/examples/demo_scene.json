@@ -1,0 +1,288 @@
+{
+  "schema_version": "1.0.0",
+  "title": "RAY Mini Shelf — Concept Preview",
+  "template_id": "mini_shelf_v1",
+  "units": "meters",
+  "coordinate_system": "right-handed; +x right, +y up, +z depth; origin at floor center",
+  "outer_dimensions_cm": {
+    "width_cm": 80.0,
+    "height_cm": 50.0,
+    "depth_cm": 25.0
+  },
+  "components": [
+    {
+      "id": "left_side",
+      "label": "Left side",
+      "shape": "box",
+      "dimensions_m": [
+        0.018,
+        0.5,
+        0.25
+      ],
+      "position_m": [
+        -0.391,
+        0.25,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color_hex": "#a77345",
+      "stock_unit_id": "wood-B#1",
+      "part_model_url": null
+    },
+    {
+      "id": "right_side",
+      "label": "Right side",
+      "shape": "box",
+      "dimensions_m": [
+        0.018,
+        0.5,
+        0.25
+      ],
+      "position_m": [
+        0.391,
+        0.25,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color_hex": "#a77345",
+      "stock_unit_id": "wood-B#2",
+      "part_model_url": null
+    },
+    {
+      "id": "bottom_shelf",
+      "label": "Bottom shelf",
+      "shape": "box",
+      "dimensions_m": [
+        0.764,
+        0.018,
+        0.25
+      ],
+      "position_m": [
+        0.0,
+        0.009,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color_hex": "#bb8957",
+      "stock_unit_id": "wood-A#1",
+      "part_model_url": null
+    },
+    {
+      "id": "top_shelf",
+      "label": "Top shelf",
+      "shape": "box",
+      "dimensions_m": [
+        0.764,
+        0.018,
+        0.25
+      ],
+      "position_m": [
+        0.0,
+        0.491,
+        0.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "color_hex": "#bb8957",
+      "stock_unit_id": "wood-A#2",
+      "part_model_url": null
+    }
+  ],
+  "guidance": {
+    "left_side": {
+      "component_id": "left_side",
+      "title": "Left side panel",
+      "instructions": [
+        "Verify panel dimensions and condition.",
+        "Preview the left side location in the 3D scene.",
+        "Hold the panel in position; only fasten after a suitable joint is independently verified."
+      ],
+      "tools_required": [
+        "Measuring tape",
+        "Carpenter square",
+        "Clamps"
+      ],
+      "notes": [
+        "Stock: wood-B#1",
+        "Check the approved cut preview before any fabrication."
+      ],
+      "caution": "Concept guidance only: no structural loads, fastener placements, or cut safety are certified."
+    },
+    "right_side": {
+      "component_id": "right_side",
+      "title": "Right side panel",
+      "instructions": [
+        "Verify panel dimensions and condition.",
+        "Preview its alignment with the left side.",
+        "Confirm the assembly is supported before fastening."
+      ],
+      "tools_required": [
+        "Measuring tape",
+        "Carpenter square",
+        "Clamps"
+      ],
+      "notes": [
+        "Stock: wood-B#2",
+        "Check the approved cut preview before any fabrication."
+      ],
+      "caution": "Concept guidance only: no structural loads, fastener placements, or cut safety are certified."
+    },
+    "bottom_shelf": {
+      "component_id": "bottom_shelf",
+      "title": "Bottom shelf panel",
+      "instructions": [
+        "Identify the assigned stock board.",
+        "Preview the bottom shelf position between both sides.",
+        "Verify clearance and safe joinery before assembly."
+      ],
+      "tools_required": [
+        "Measuring tape",
+        "Carpenter square",
+        "Clamps"
+      ],
+      "notes": [
+        "Stock: wood-A#1",
+        "Check the approved cut preview before any fabrication."
+      ],
+      "caution": "Concept guidance only: no structural loads, fastener placements, or cut safety are certified."
+    },
+    "top_shelf": {
+      "component_id": "top_shelf",
+      "title": "Top shelf panel",
+      "instructions": [
+        "Identify the assigned stock board.",
+        "Preview top-panel alignment with both sides.",
+        "Do not load the shelf until fixings and stability are independently checked."
+      ],
+      "tools_required": [
+        "Measuring tape",
+        "Carpenter square",
+        "Clamps"
+      ],
+      "notes": [
+        "Stock: wood-A#2",
+        "Check the approved cut preview before any fabrication."
+      ],
+      "caution": "Concept guidance only: no structural loads, fastener placements, or cut safety are certified."
+    }
+  },
+  "assembly_steps": [
+    {
+      "step": 1,
+      "title": "Identify and verify materials",
+      "component_ids": [],
+      "description": "Inspect each board and verify material, dimensions and potential defects."
+    },
+    {
+      "step": 2,
+      "title": "Preview the side panels",
+      "component_ids": [
+        "left_side",
+        "right_side"
+      ],
+      "description": "Use the 3D view to understand the intended location of both side panels."
+    },
+    {
+      "step": 3,
+      "title": "Preview the bottom shelf",
+      "component_ids": [
+        "bottom_shelf"
+      ],
+      "description": "Review the bottom panel location and its relationship with side panels."
+    },
+    {
+      "step": 4,
+      "title": "Preview the top shelf",
+      "component_ids": [
+        "top_shelf"
+      ],
+      "description": "Review top-panel alignment; confirm safe fastener design externally."
+    }
+  ],
+  "cut_previews": [
+    {
+      "component_id": "left_side",
+      "stock_unit_id": "wood-B#1",
+      "required_face_cm": [
+        50.0,
+        25.0
+      ],
+      "source_face_cm": [
+        90.0,
+        30.0
+      ],
+      "thickness_cm": 1.8
+    },
+    {
+      "component_id": "right_side",
+      "stock_unit_id": "wood-B#2",
+      "required_face_cm": [
+        50.0,
+        25.0
+      ],
+      "source_face_cm": [
+        90.0,
+        30.0
+      ],
+      "thickness_cm": 1.8
+    },
+    {
+      "component_id": "bottom_shelf",
+      "stock_unit_id": "wood-A#1",
+      "required_face_cm": [
+        76.4,
+        25.0
+      ],
+      "source_face_cm": [
+        85.0,
+        30.0
+      ],
+      "thickness_cm": 1.8
+    },
+    {
+      "component_id": "top_shelf",
+      "stock_unit_id": "wood-A#2",
+      "required_face_cm": [
+        76.4,
+        25.0
+      ],
+      "source_face_cm": [
+        85.0,
+        30.0
+      ],
+      "thickness_cm": 1.8
+    }
+  ],
+  "project_tools": [
+    "Measuring tape",
+    "Carpenter square",
+    "Clamps",
+    "Appropriate safety equipment"
+  ],
+  "missing_supplies": [
+    "Suitable verified fixings / joinery",
+    "Additional tools if required by reviewed assembly plan"
+  ],
+  "safety_notes": [
+    "Concept only: not a certified fabrication or load-bearing design.",
+    "Confirm physical dimensions and material condition manually.",
+    "AR tracking and positioning are approximate; do not use for accurate cutting or drilling.",
+    "Get joinery, load capacity and stability independently verified before construction."
+  ],
+  "model_glb_url": null
+}

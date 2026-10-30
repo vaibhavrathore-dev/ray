@@ -1,0 +1,8 @@
+{
+  "template_id": "mini_shelf_v1",
+  "space": {"width_cm": 95, "height_cm": 85, "depth_cm": 45},
+  "boards": [
+    {"source_id": "wood-A", "material_type": "wood", "length_cm": 85, "width_cm": 30, "thickness_cm": 1.8, "quantity": 2, "condition": "good"},
+    {"source_id": "wood-B", "material_type": "wood", "length_cm": 90, "width_cm": 30, "thickness_cm": 1.8, "quantity": 2, "condition": "good"}
+  ]
+}

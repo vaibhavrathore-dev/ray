@@ -1,0 +1,32 @@
+# Environment and secrets, across all subprojects
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+# Python
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+*.db
+*.db-journal
+# Generated private project models and photos
+backend/generated/**
+!backend/generated/.gitkeep
+# React Native / Expo
+**/node_modules/
+**/.expo/
+**/android/.gradle/
+**/android/build/
+**/ios/Pods/
+**/dist/
+**/build/
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
